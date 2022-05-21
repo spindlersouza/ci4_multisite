@@ -1,0 +1,8 @@
+{
+    "name": "codeigniter4/codeigniter4",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "mercadopago/dx-php": "2.4.*"
+    }
+}

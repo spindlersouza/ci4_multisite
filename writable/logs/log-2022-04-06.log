@@ -1,0 +1,92 @@
+CRITICAL - 2022-04-06 12:07:14 --> Class 'App\Models\Back\FreteGratisModel' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(803): App\Controllers\Back\FreteGratis->__construct()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 12:08:09 --> Class 'App\Models\Back\FreteGratisModel' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(803): App\Controllers\Back\FreteGratis->__construct()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-06 12:08:40 --> Table 'instintointimo.frete_gratis' doesn't exist
+CRITICAL - 2022-04-06 12:08:40 --> Table 'instintointimo.frete_gratis' doesn't exist
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `frete_g...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `frete_g...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `frete_g...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `frete_g...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\app\Controllers\Back\FreteGratis.php(24): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\FreteGratis->index()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\FreteGratis))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-06 12:09:08 --> Undefined variable: news
+#0 C:\wamp64\www\instintointimo\app\Views\Back\News\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 26, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/News/index', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\FreteGratis.php(25): view('Back/News/index', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\FreteGratis->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\FreteGratis))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 12:40:21 --> Undefined variable: fregratis
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 15, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(127): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 12:40:38 --> Undefined variable: fregratis
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 18, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(127): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 12:40:47 --> Unsupported operand types
+#0 C:\wamp64\www\instintointimo\system\View\View.php(210): include()
+#1 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#3 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(127): view('Front/Carrinho/...', Array)
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-06 12:44:52 --> number_format() expects parameter 1 to be float, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\wamp64\\www\\i...', 17, Array)
+#1 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(17): number_format(Array, 2, ',', '.')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#3 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(127): view('Front/Carrinho/...', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-06 12:45:18 --> number_format() expects parameter 1 to be float, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\wamp64\\www\\i...', 17, Array)
+#1 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(17): number_format(Array, 2, ',', '.')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#3 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(127): view('Front/Carrinho/...', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}

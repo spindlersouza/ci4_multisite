@@ -1,0 +1,49 @@
+CRITICAL - 2022-03-19 10:33:58 --> Undefined variable: endereco
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(118): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-19 10:56:09 --> Undefined variable: estados
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 207, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(122): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-19 11:25:06 --> Undefined variable: carinho
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(279): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 279, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->atualizaCep()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-19 15:47:26 --> Unknown column 'cidade_id' in 'where clause'
+CRITICAL - 2022-03-19 15:47:26 --> Unknown column 'cidade_id' in 'where clause'
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\app\Controllers\Front\MinhaConta.php(48): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-19 17:20:03 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\i...', 221, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->atributos()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

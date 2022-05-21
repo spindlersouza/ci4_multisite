@@ -1,0 +1,61 @@
+CRITICAL - 2022-03-23 12:02:39 --> filesize(): stat failed for public/upload/catalogos/catalogo_sublimacao
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\wamp64\\www\\i...', 17, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Catalogo.php(17): filesize('public/upload/c...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Catalogo->index('catalogo_sublim...')
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Catalogo))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-23 17:27:17 --> Undefined index: frete_tipo
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 273, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 17:27:44 --> Undefined index: id
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(259): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 259, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 17:30:28 --> Undefined index: frete_tipo
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 273, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 17:30:28 --> Undefined index: frete_tipo
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 273, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 17:30:29 --> Undefined index: frete_tipo
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 273, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 17:31:28 --> Undefined variable: carrinhoItens
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(274): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 274, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 18:50:32 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\i...', 118, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(124): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,737 @@
+ERROR - 2022-03-17 11:08:32 --> Cannot add or update a child row: a foreign key constraint fails (`instintointimo`.`carrinho_itens`, CONSTRAINT `FK_carrinho_itens_cor` FOREIGN KEY (`cor_atributo_id`) REFERENCES `produtos_valor_atributos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-17 11:08:32 --> Cannot add or update a child row: a foreign key constraint fails (`instintointimo`.`carrinho_itens`, CONSTRAINT `FK_carrinho_itens_cor` FOREIGN KEY (`cor_atributo_id`) REFERENCES `produtos_valor_atributos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\instintointimo\system\BaseModel.php(728): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\instintointimo\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\instintointimo\system\BaseModel.php(651): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(163): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addProduto()
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-17 11:18:21 --> Cannot add or update a child row: a foreign key constraint fails (`instintointimo`.`carrinho_itens`, CONSTRAINT `FK_carrinho_itens_cor` FOREIGN KEY (`cor_atributo_id`) REFERENCES `produtos_valor_atributos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-03-17 11:18:21 --> Cannot add or update a child row: a foreign key constraint fails (`instintointimo`.`carrinho_itens`, CONSTRAINT `FK_carrinho_itens_cor` FOREIGN KEY (`cor_atributo_id`) REFERENCES `produtos_valor_atributos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\instintointimo\system\BaseModel.php(728): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\instintointimo\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\instintointimo\system\BaseModel.php(651): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(163): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addProduto()
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-17 11:21:17 --> Unknown column 'subtotal_rev' in 'field list'
+CRITICAL - 2022-03-17 11:21:17 --> Unknown column 'subtotal_rev' in 'field list'
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `carrinh...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `carrinh...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `carrinh...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `carrinh...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\instintointimo\system\BaseModel.php(853): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\instintointimo\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\instintointimo\system\BaseModel.php(649): CodeIgniter\Model->update('1', Array)
+#8 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(175): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addProduto()
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-17 11:22:29 --> Unknown column 'subtotal_rev' in 'field list'
+CRITICAL - 2022-03-17 11:22:29 --> Unknown column 'subtotal_rev' in 'field list'
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `carrinh...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `carrinh...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `carrinh...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `carrinh...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\instintointimo\system\BaseModel.php(853): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\instintointimo\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\instintointimo\system\BaseModel.php(649): CodeIgniter\Model->update('1', Array)
+#8 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(175): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addProduto()
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-17 13:06:25 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\i...')
+#1 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\instintointimo\app\Controllers\Front\Login.php(13): spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(264): include_once('C:\\wamp64\\www\\i...')
+#5 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 [internal function]: spl_autoload_call('App\\Controllers...')
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(791): class_exists('\\App\\Controller...', true)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-17 13:06:26 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\i...')
+#1 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\instintointimo\app\Controllers\Front\Categoria.php(12): spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(264): include_once('C:\\wamp64\\www\\i...')
+#5 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 [internal function]: spl_autoload_call('App\\Controllers...')
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(791): class_exists('\\App\\Controller...', true)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-17 13:13:05 --> There is no data to update.
+#0 C:\wamp64\www\instintointimo\system\BaseModel.php(1531): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\instintointimo\system\BaseModel.php(820): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\instintointimo\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(200): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(69): App\Controllers\Front\Carrinho->getCarrinho()
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 13:13:05 --> There is no data to update.
+#0 C:\wamp64\www\instintointimo\system\BaseModel.php(1531): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\instintointimo\system\BaseModel.php(820): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\instintointimo\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(200): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(69): App\Controllers\Front\Carrinho->getCarrinho()
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 13:13:05 --> There is no data to update.
+#0 C:\wamp64\www\instintointimo\system\BaseModel.php(1531): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\instintointimo\system\BaseModel.php(820): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\instintointimo\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(200): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(69): App\Controllers\Front\Carrinho->getCarrinho()
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 13:16:25 --> Non-static method App\Controllers\Front\Carrinho::getCarrinho() should not be called statically
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\i...', 68, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:16:25 --> Non-static method App\Controllers\Front\Carrinho::getCarrinho() should not be called statically
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\i...', 68, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:16:47 --> Using $this when not in object context
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(68): App\Controllers\Front\Carrinho::getCarrinho()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:16:48 --> Using $this when not in object context
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(68): App\Controllers\Front\Carrinho::getCarrinho()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:19:12 --> Undefined property: App\Controllers\Front\Login::$this
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 73, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:19:12 --> Undefined property: App\Controllers\Front\Categoria::$this
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 73, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:25:48 --> Undefined index: quantidade
+#0 C:\wamp64\www\instintointimo\app\Views\Front\_menu_vibrance.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\View\View.php(424): CodeIgniter\View\View->render('Front/_menu_vib...', NULL, true)
+#4 C:\wamp64\www\instintointimo\app\Views\front.php(8): CodeIgniter\View\View->include('Front/_menu_vib...')
+#5 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\instintointimo\system\View\View.php(226): CodeIgniter\View\View->render('front', Array, true)
+#8 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Login/ind...', Array, true)
+#9 C:\wamp64\www\instintointimo\app\Controllers\Front\Login.php(50): view('Front/Login/ind...', Array)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Login->index()
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Login))
+#12 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-17 13:25:49 --> Undefined index: quantidade
+#0 C:\wamp64\www\instintointimo\app\Views\Front\_menu_vibrance.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\View\View.php(424): CodeIgniter\View\View->render('Front/_menu_vib...', NULL, true)
+#4 C:\wamp64\www\instintointimo\app\Views\front.php(8): CodeIgniter\View\View->include('Front/_menu_vib...')
+#5 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\instintointimo\system\View\View.php(226): CodeIgniter\View\View->render('front', Array, true)
+#8 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Categoria...', Array, true)
+#9 C:\wamp64\www\instintointimo\app\Controllers\Front\Categoria.php(73): view('Front/Categoria...', Array)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Categoria->subcategoria('icon', 'favicon.png')
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Categoria))
+#12 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-17 13:26:41 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('top', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:27:08 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('top', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:27:14 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Views\Front\_menu_vibrance.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\View\View.php(424): CodeIgniter\View\View->render('Front/_menu_vib...', NULL, true)
+#4 C:\wamp64\www\instintointimo\app\Views\front.php(8): CodeIgniter\View\View->include('Front/_menu_vib...')
+#5 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\instintointimo\system\View\View.php(226): CodeIgniter\View\View->render('front', Array, true)
+#8 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/vibr...', Array, true)
+#9 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(79): view('Front/Home/vibr...', Array)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#12 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-17 13:27:22 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Views\Front\_menu_vibrance.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\View\View.php(424): CodeIgniter\View\View->render('Front/_menu_vib...', NULL, true)
+#4 C:\wamp64\www\instintointimo\app\Views\front.php(8): CodeIgniter\View\View->include('Front/_menu_vib...')
+#5 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\instintointimo\system\View\View.php(226): CodeIgniter\View\View->render('front', Array, true)
+#8 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Categoria...', Array, true)
+#9 C:\wamp64\www\instintointimo\app\Controllers\Front\Categoria.php(73): view('Front/Categoria...', Array)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Categoria->subcategoria('icon', 'favicon.png')
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Categoria))
+#12 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-17 13:30:09 --> Undefined variable: carrinho
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 65, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:45:50 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('top', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:46:45 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('top', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:47:19 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('top', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:47:33 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('top', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:06:28 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('top', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:06:41 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('top', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:06:49 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 105, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addProduto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:07:53 --> Undefined index: itens
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 75, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:07:53 --> Undefined index: itens
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 75, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:11:25 --> Undefined index: produto_imagem
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 30, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(74): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 14:18:01 --> Use of undefined constant c - assumed 'c' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\i...', 78, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:29:49 --> Call to undefined method App\Models\Front\CarrinhoItensModel::fisrt
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(217): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:33:04 --> Call to undefined method App\Models\Front\CarrinhoItensModel::fisrt
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(217): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 14:34:28 --> Call to undefined method App\Models\Front\CarrinhoItensModel::fisrt
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(217): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addQuantidade()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:18:03 --> Class 'App\Controllers\Front\CidadeModel' not found
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(72): App\Controllers\Front\Carrinho->__construct()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:18:04 --> Class 'App\Controllers\Front\CidadeModel' not found
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(72): App\Controllers\Front\Carrinho->__construct()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:18:56 --> Class 'App\Controllers\Front\CidadesModel' not found
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(72): App\Controllers\Front\Carrinho->__construct()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:18:56 --> Class 'App\Controllers\Front\CidadesModel' not found
+#0 C:\wamp64\www\instintointimo\app\Controllers\BaseController.php(72): App\Controllers\Front\Carrinho->__construct()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(804): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:21:50 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('icon', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:22:14 --> Undefined variable: cep
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 100, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:32:45 --> Undefined index: subtotal
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 114, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(98): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 15:33:06 --> Undefined variable: cep
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 118, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(98): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 15:33:25 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 127, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(127): curl_setopt(Resource id #13, 10015, Array)
+#2 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(98): App\Controllers\Api\Frenet->getFreteCarrinho()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-17 15:33:40 --> Undefined index: frenet_token
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 130, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(98): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 15:33:51 --> A non-numeric value encountered
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\i...', 99, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:34:52 --> Undefined variable: response
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 132, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(98): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 15:44:05 --> Illegal string offset 'ShippingSevicesArray'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 136, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(98): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 15:49:33 --> Undefined index: cidade
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 83, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(108): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 16:18:20 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('icon', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 16:18:27 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('icon', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 16:21:44 --> Undefined variable: cep
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 97, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 16:23:09 --> Undefined variable: ret
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 148, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(102): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 16:23:35 --> Array to string conversion
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 83, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(112): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 16:23:53 --> Array to string conversion
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 83, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(112): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 16:24:20 --> Undefined index: cidaed
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 97, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 16:24:29 --> Undefined index: cidade
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 97, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 16:25:02 --> [] operator not supported for strings
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(102): App\Controllers\Api\Frenet->getFreteCarrinho()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 18:40:07 --> Undefined variable: pagamento
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Pagamento\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 10, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Pagamento...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Pagamento.php(64): view('Front/Pagamento...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Pagamento->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagamento))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 18:42:45 --> Undefined index: subtotal
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Pagamento\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 10, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Pagamento...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Pagamento.php(64): view('Front/Pagamento...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Pagamento->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagamento))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 20:27:09 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPago.php(59): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPago->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPago))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 20:28:02 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPago.php(59): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPago->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPago))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 20:29:15 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\wamp64\\www\\i...', 55, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPago.php(55): json_decode(Array)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPago->pagamento()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPago))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 20:41:56 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPago.php(60): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPago->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPago))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 20:42:17 --> Class 'App\Controllers\Api\MercadoPago\SDK' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPago->pagamento()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPago))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 20:42:45 --> Class 'App\Controllers\Api\MercadoPago\SDK' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPago->pagamento()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPago))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 20:44:33 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPago.php(64): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPago->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPago))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 20:52:18 --> App\Controllers\Api\MercadoPago::pagamento(): Failed opening required 'C:\wamp64\www\instintointimo\app\Controllers\Api/vendor/autoload.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 20:52:33 --> App\Controllers\Api\MercadoPago::pagamento(): Failed opening required 'C:\wamp64\www\instintointimo\app\Controllers\Api/vendor/autoload.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 20:53:06 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPago.php(65): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPago->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPago))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 20:55:30 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(65): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 20:55:57 --> App\Controllers\Api\MercadoPg::pagamento(): Failed opening required 'C:\wamp64\www\instintointimo\app\Controllers\Api/vendor/autoload.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 20:57:11 --> Class 'App\Controllers\Api\MercadoPago\SDK' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 20:59:40 --> Class 'App\Controllers\Api\MercadoPago\SDK' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 21:08:38 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(62): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 21:09:42 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(62): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 21:11:31 --> syntax error, unexpected '$pay' (T_VARIABLE)
+#0 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\i...')
+#1 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(791): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 21:12:08 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(65): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 21:13:23 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\RestClient.php(222): MercadoPago\RestClient->exec(Array)
+#1 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(146): MercadoPago\RestClient->get('/users/me')
+#2 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config.php(112): MercadoPago\Config->getUserId('TEST-8347530394...')
+#3 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\Config\AbstractConfig.php(96): MercadoPago\Config->set('ACCESS_TOKEN', 'TEST-8347530394...')
+#4 C:\wamp64\www\instintointimo\vendor\mercadopago\dx-php\src\MercadoPago\SDK.php(45): MercadoPago\Config\AbstractConfig->configure(Array)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(64): MercadoPago\SDK::setAccessToken('TEST-8347530394...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-17 21:13:29 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('api', 'mp', 'pagamento')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

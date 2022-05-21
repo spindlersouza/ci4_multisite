@@ -1,0 +1,712 @@
+CRITICAL - 2022-03-18 08:24:41 --> Class 'MercadoPago\SDK' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 08:26:55 --> App\Controllers\Api\MercadoPg::pagamento(): Failed opening required './MercadoPago/SDK.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 08:56:00 --> curl_error(): supplied resource is not a valid cURL handle resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_error(): s...', 'C:\\wamp64\\www\\i...', 123, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(123): curl_error(Resource id #12)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 08:56:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\instintointimo\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 08:56:48 --> curl_error(): supplied resource is not a valid cURL handle resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_error(): s...', 'C:\\wamp64\\www\\i...', 123, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(123): curl_error(Resource id #12)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 08:56:48 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\instintointimo\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 09:01:40 --> curl_error(): supplied resource is not a valid cURL handle resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_error(): s...', 'C:\\wamp64\\www\\i...', 119, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(119): curl_error(Resource id #12)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 09:01:40 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\instintointimo\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 09:02:11 --> curl_error(): supplied resource is not a valid cURL handle resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_error(): s...', 'C:\\wamp64\\www\\i...', 120, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(120): curl_error(Resource id #12)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 09:02:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\instintointimo\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 09:16:38 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:17:17 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:18:32 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:48:32 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:48:46 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:50:46 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:52:05 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:52:18 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:52:31 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:53:00 --> Illegal string offset 'payer'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 88, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 09:55:14 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 106, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(106): curl_setopt(Resource id #12, 10015, Array)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 09:55:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\instintointimo\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 09:55:53 --> syntax error, unexpected 'SS' (T_STRING), expecting ')'
+#0 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\i...')
+#1 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(791): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-18 09:56:51 --> curl_error(): supplied resource is not a valid cURL handle resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_error(): s...', 'C:\\wamp64\\www\\i...', 115, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(115): curl_error(Resource id #12)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 09:56:51 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\instintointimo\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 10:18:51 --> Undefined index: issuer
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:19:20 --> Undefined index: issuer
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 84, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:20:28 --> Undefined index: issuer
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 86, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:20:58 --> Undefined index: issuer
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 87, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:21:04 --> Undefined index: issuer
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 87, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:21:12 --> Undefined index: issuer
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 87, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:21:23 --> Undefined index: issuer
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 87, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:21:28 --> Undefined index: issuer
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 87, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:22:43 --> Undefined index: cardholderEmail
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 97, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:23:30 --> Undefined index: cardholderEmail
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 97, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 10:25:55 --> Undefined index: paymentMethodId
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 106, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamento()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 12:28:32 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentocc()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 12:28:32 --> Undefined variable: carrinhoTopo
+#0 C:\wamp64\www\instintointimo\app\Views\Front\_menu_vibrance.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\View\View.php(424): CodeIgniter\View\View->render('Front/_menu_vib...', NULL, true)
+#4 C:\wamp64\www\instintointimo\app\Views\front.php(8): CodeIgniter\View\View->include('Front/_menu_vib...')
+#5 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\instintointimo\system\View\View.php(226): CodeIgniter\View\View->render('front', Array, true)
+#8 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MeusPedid...', Array, true)
+#9 C:\wamp64\www\instintointimo\app\Controllers\Front\MeusPedidos.php(24): view('Front/MeusPedid...', Array)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MeusPedidos->index()
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MeusPedidos))
+#12 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-18 12:28:52 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentocc()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 12:31:00 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentocc()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 12:31:00 --> Undefined variable: carrinhoTopo
+#0 C:\wamp64\www\instintointimo\app\Views\Front\_menu_vibrance.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\View\View.php(424): CodeIgniter\View\View->render('Front/_menu_vib...', NULL, true)
+#4 C:\wamp64\www\instintointimo\app\Views\front.php(8): CodeIgniter\View\View->include('Front/_menu_vib...')
+#5 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\instintointimo\system\View\View.php(226): CodeIgniter\View\View->render('front', Array, true)
+#8 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MeusPedid...', Array, true)
+#9 C:\wamp64\www\instintointimo\app\Controllers\Front\MeusPedidos.php(24): view('Front/MeusPedid...', Array)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MeusPedidos->index()
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MeusPedidos))
+#12 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-18 12:32:15 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentocc()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 12:33:35 --> Array to string conversion
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 127, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentocc()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 12:33:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\instintointimo\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\instintointimo\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\instintointimo\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 12:52:47 --> Call to a member function where() on null
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 12:54:13 --> Undefined variable: pay
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 138, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-18 13:14:54 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-03-18 13:14:54 --> Column 'id' in where clause is ambiguous
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `produto...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(149): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-18 13:15:10 --> Undefined variable: rsProd
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 153, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 13:15:20 --> Undefined index: nome
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 153, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 13:15:45 --> Undefined index: nome
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 153, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 14:28:28 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 14:28:42 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 14:29:14 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 14:29:34 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 14:29:51 --> Call to undefined method App\Models\Back\EstadoModel::fisrt
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(166): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 14:31:37 --> Call to undefined method App\Models\Back\EstadoModel::fisrt
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(163): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 15:05:34 --> Undefined variable: ret
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 207, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 15:05:45 --> Undefined index: barcode
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 207, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 15:08:15 --> Undefined index: barcode
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 207, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 15:09:45 --> Undefined offset: 1246902870
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\i...', 211, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentoboleto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 15:10:01 --> Undefined variable: carrinhoTopo
+#0 C:\wamp64\www\instintointimo\app\Views\Front\_menu_vibrance.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\View\View.php(424): CodeIgniter\View\View->render('Front/_menu_vib...', NULL, true)
+#4 C:\wamp64\www\instintointimo\app\Views\front.php(8): CodeIgniter\View\View->include('Front/_menu_vib...')
+#5 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#6 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\instintointimo\system\View\View.php(226): CodeIgniter\View\View->render('front', Array, true)
+#8 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MeusPedid...', Array, true)
+#9 C:\wamp64\www\instintointimo\app\Controllers\Front\MeusPedidos.php(24): view('Front/MeusPedid...', Array)
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MeusPedidos->index()
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MeusPedidos))
+#12 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-18 15:12:11 --> Class 'App\Controllers\Front\PaginasModel' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(803): App\Controllers\Front\MeusPedidos->__construct()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 15:12:11 --> Class 'App\Controllers\Front\PaginasModel' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(803): App\Controllers\Front\MeusPedidos->__construct()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-18 16:06:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `produtos`.`deleted_at` IS NULL
+ LIMIT 1' at line 3
+CRITICAL - 2022-03-18 16:06:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `produtos`.`deleted_at` IS NULL
+ LIMIT 1' at line 3
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nome`, ...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nome`, ...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nome`, ...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `nome`, ...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\system\BaseModel.php(616): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\instintointimo\app\Controllers\Front\MeusPedidos.php(67): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MeusPedidos->index()
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MeusPedidos))
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-18 16:12:02 --> Undefined variable: pedidos
+#0 C:\wamp64\www\instintointimo\app\Views\Front\MeusPedidos\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 16, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MeusPedid...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\MeusPedidos.php(86): view('Front/MeusPedid...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MeusPedidos->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MeusPedidos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 16:14:10 --> Undefined index: referencia
+#0 C:\wamp64\www\instintointimo\app\Views\Front\MeusPedidos\index.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 114, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MeusPedid...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\MeusPedidos.php(87): view('Front/MeusPedid...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MeusPedidos->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MeusPedidos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 16:14:19 --> Undefined index: total
+#0 C:\wamp64\www\instintointimo\app\Views\Front\MeusPedidos\index.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 139, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MeusPedid...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\MeusPedidos.php(87): view('Front/MeusPedid...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MeusPedidos->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MeusPedidos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 16:43:52 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Pagamento.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 56, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Pagamento->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagamento))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 16:44:03 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 66, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 16:44:23 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 142, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->addProduto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 16:47:47 --> Call to undefined function baseurl()
+#0 C:\wamp64\www\instintointimo\system\View\View.php(210): include()
+#1 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Pagamento...', Array, true)
+#3 C:\wamp64\www\instintointimo\app\Controllers\Front\Pagamento.php(68): view('Front/Pagamento...', Array)
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Pagamento->index()
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagamento))
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-18 16:52:16 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 66, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 16:53:08 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 66, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 16:54:36 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 102, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(104): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 16:54:56 --> Undefined index: subtotal
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Carrinho\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 9, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Carrinho/...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(114): view('Front/Carrinho/...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 16:56:36 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 73, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 16:57:35 --> Undefined variable: carrinhoItens
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 113, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 18:25:01 --> Call to a member function where() on null
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 18:25:44 --> Undefined index: cidade
+#0 C:\wamp64\www\instintointimo\app\Views\Front\MinhaConta\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 34, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MinhaCont...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\MinhaConta.php(44): view('Front/MinhaCont...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 18:30:31 --> Cannot use App\Models\Back\SiteModel as SiteModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-18 18:30:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRestul()
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 18:31:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRestul()
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-18 18:31:20 --> Undefined index: data-nascimento
+#0 C:\wamp64\www\instintointimo\app\Views\Front\MinhaConta\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 75, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MinhaCont...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\MinhaConta.php(54): view('Front/MinhaCont...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 18:31:41 --> Undefined variable: estados
+#0 C:\wamp64\www\instintointimo\app\Views\Front\MinhaConta\index.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 106, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/MinhaCont...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\MinhaConta.php(54): view('Front/MinhaCont...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 19:08:19 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\MinhaConta.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 45, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 19:08:48 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\MinhaConta.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 45, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 19:11:52 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\MinhaConta.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 45, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 19:13:50 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\MinhaConta.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 45, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\MinhaConta->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\MinhaConta))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-18 19:17:51 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 102, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(109): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 19:19:47 --> Undefined index: cart
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Frenet.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 102, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Carrinho.php(109): App\Controllers\Api\Frenet->getFreteCarrinho()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Carrinho->index()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Carrinho))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}

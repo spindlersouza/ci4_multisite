@@ -1,0 +1,31 @@
+CRITICAL - 2022-03-21 09:18:29 --> Undefined variable: result
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Configuracao\cadastro.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 16, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Configurac...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Configuracao.php(121): view('Back/Configurac...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Configuracao->save()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Configuracao))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 09:22:32 --> Undefined index: email_rodape_dim
+#0 C:\wamp64\www\instintointimo\app\Controllers\Back\Configuracao.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 97, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Configuracao->save()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Configuracao))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 09:24:32 --> Undefined index: email_rodape_dim
+#0 C:\wamp64\www\instintointimo\app\Controllers\Back\Configuracao.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 98, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Configuracao->save()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Configuracao))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 10:22:52 --> Call to a member function where() on null
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->listagaleriasemcor()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,83 @@
+ERROR - 2022-03-29 09:35:34 --> Unknown column 'retorno_mp' in 'field list'
+CRITICAL - 2022-03-29 09:35:34 --> Unknown column 'retorno_mp' in 'field list'
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `carrinh...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `carrinh...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `carrinh...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `carrinh...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\instintointimo\system\BaseModel.php(853): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\instintointimo\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\instintointimo\system\BaseModel.php(649): CodeIgniter\Model->update('7', Array)
+#8 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(154): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentocc()
+#10 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#11 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-29 11:44:09 --> Undefined index: payment_method_id
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\MercadoPg.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 145, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\MercadoPg->pagamentocc()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MercadoPg))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 14:41:13 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 131, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(131): array_unique(Array)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->addFavorito()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 14:41:18 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 131, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(131): array_unique(Array)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->addFavorito()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 14:42:07 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 131, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(131): array_unique(Array)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->addFavorito()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 14:45:33 --> Illegal string offset 'produtos'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 126, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->addFavorito()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 14:46:24 --> Illegal string offset 'produtos'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 126, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->addFavorito()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 14:46:44 --> Illegal string offset 'produtos'
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 126, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->addFavorito()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-29 14:52:14 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 132, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(132): array_unique(Array)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->addFavorito()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-29 17:31:55 --> Undefined variable: id
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 104, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Login->login()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Login))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

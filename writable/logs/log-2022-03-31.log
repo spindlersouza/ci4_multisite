@@ -1,0 +1,176 @@
+CRITICAL - 2022-03-31 12:58:01 --> Undefined variable: data
+#0 C:\wamp64\www\instintointimo\app\Controllers\Back\Clientes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 33, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Clientes->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Clientes))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 12:58:20 --> Undefined index: created_at
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Clientes\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 36, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Clientes/i...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Clientes.php(33): view('Back/Clientes/i...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Clientes->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Clientes))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 12:58:41 --> Undefined index: site
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Clientes\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 42, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Clientes/i...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Clientes.php(33): view('Back/Clientes/i...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Clientes->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Clientes))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 14:02:58 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\wamp64\\www\\i...', 35, Array)
+#1 C:\wamp64\www\instintointimo\app\Views\Back\Clientes\index.php(35): date('d/m/Y', '2022-03-18 19:1...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#3 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Clientes/i...', Array, true)
+#5 C:\wamp64\www\instintointimo\app\Controllers\Back\Clientes.php(33): view('Back/Clientes/i...', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Clientes->index()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Clientes))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-31 14:06:53 --> Undefined property: App\Controllers\Back\Pedidos::$carrinho
+#0 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 14:07:08 --> Undefined variable: topicos
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Pedidos\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Pedidos/in...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(29): view('Back/Pedidos/in...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 14:08:13 --> Undefined variable: pedidos
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Pedidos\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 28, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Pedidos/in...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(29): view('Back/Pedidos/in...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 14:08:26 --> Undefined index: cliente_nome
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Pedidos\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 31, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Pedidos/in...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(29): view('Back/Pedidos/in...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-31 16:29:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 4
+CRITICAL - 2022-03-31 16:29:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 4
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `carrinh...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `carrinh...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `carrinh...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `carrinh...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(31): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-31 16:31:28 --> Unknown column 'carrinho.status' in 'field list'
+CRITICAL - 2022-03-31 16:31:28 --> Unknown column 'carrinho.status' in 'field list'
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `carrinh...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `carrinh...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `carrinh...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `carrinh...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(31): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-31 16:31:30 --> Unknown column 'carrinho.status' in 'field list'
+CRITICAL - 2022-03-31 16:31:30 --> Unknown column 'carrinho.status' in 'field list'
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `carrinh...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `carrinh...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `carrinh...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `carrinh...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(31): CodeIgniter\Model->__call('get', Array)
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-31 16:32:18 --> Undefined index: status
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Pedidos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 33, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Pedidos/in...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(32): view('Back/Pedidos/in...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 16:34:55 --> syntax error, unexpected ';', expecting ')'
+#0 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Pedidos/in...', Array, true)
+#2 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(32): view('Back/Pedidos/in...', Array)
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->index()
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-31 18:11:00 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in C:\wamp64\www\instintointimo\system\Model.php on line 697 and at least 2 expected
+#0 C:\wamp64\www\instintointimo\system\Model.php(697): CodeIgniter\Database\BaseBuilder->join()
+#1 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(46): CodeIgniter\Model->__call('join', Array)
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->detalhes('7')
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-31 18:11:47 --> Unknown column 'clientes.clelular' in 'field list'
+CRITICAL - 2022-03-31 18:11:47 --> Unknown column 'clientes.clelular' in 'field list'
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cliente...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cliente...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cliente...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cliente...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(204): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\system\BaseModel.php(616): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(49): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->detalhes('7')
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-31 18:11:48 --> Unknown column 'clientes.clelular' in 'field list'
+CRITICAL - 2022-03-31 18:11:48 --> Unknown column 'clientes.clelular' in 'field list'
+#0 C:\wamp64\www\instintointimo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cliente...', 0)
+#1 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cliente...')
+#2 C:\wamp64\www\instintointimo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cliente...')
+#3 C:\wamp64\www\instintointimo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `cliente...', Array, false)
+#4 C:\wamp64\www\instintointimo\system\Model.php(204): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\instintointimo\system\BaseModel.php(616): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\instintointimo\app\Controllers\Back\Pedidos.php(49): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Pedidos->detalhes('7')
+#8 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Pedidos))
+#9 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}

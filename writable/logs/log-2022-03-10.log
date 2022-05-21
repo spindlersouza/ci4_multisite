@@ -1,0 +1,723 @@
+CRITICAL - 2022-03-10 09:07:18 --> Undefined variable: data
+#0 C:\wamp64\www\instintointimo\app\Controllers\Back\Lojas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 37, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Lojas->index()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Lojas))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:07:54 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'lojas', 'cadastro', '1')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:08:41 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'lojas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:09:49 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'lojas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:09:55 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'lojas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:09:56 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'lojas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:09:56 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'lojas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:10:11 --> Undefined variable: data
+#0 C:\wamp64\www\instintointimo\app\Controllers\Back\Lojas.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 47, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Lojas->cadastro()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Lojas))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:10:18 --> Undefined variable: data
+#0 C:\wamp64\www\instintointimo\app\Controllers\Back\Lojas.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 47, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Lojas->cadastro()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Lojas))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:13:51 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'lojas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:17:43 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'duvidas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:18:51 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'duvidas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:20:44 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'duvidas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 09:21:06 --> FrontRestrict filter must have a matching alias defined.
+#0 C:\wamp64\www\instintointimo\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('FrontRestrict')
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('FrontRestrict', 'before')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 09:22:08 --> Class 'Config\FrontRestrict' not found
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin/duvidas/...', 'before')
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-10 09:24:33 --> Call to protected method CodeIgniter\HTTP\IncomingRequest::parseQueryString() from context 'App\Filters\FrontRestrict'
+#0 C:\wamp64\www\instintointimo\system\Filters\Filters.php(173): App\Filters\FrontRestrict->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin/duvidas/...', 'before')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 09:24:33 --> Call to protected method CodeIgniter\HTTP\IncomingRequest::parseQueryString() from context 'App\Filters\FrontRestrict'
+#0 C:\wamp64\www\instintointimo\system\Filters\Filters.php(173): App\Filters\FrontRestrict->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/favicon.ico', 'before')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 11:03:31 --> Call to undefined function App\Filters\str_contains()
+#0 C:\wamp64\www\instintointimo\system\Filters\Filters.php(173): App\Filters\FrontRestrict->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin/duvidas/...', 'before')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 11:03:32 --> Call to undefined function App\Filters\str_contains()
+#0 C:\wamp64\www\instintointimo\system\Filters\Filters.php(173): App\Filters\FrontRestrict->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/favicon.ico', 'before')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 11:05:22 --> Call to undefined function App\Filters\str_contains()
+#0 C:\wamp64\www\instintointimo\system\Filters\Filters.php(173): App\Filters\FrontRestrict->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/admin/duvidas/...', 'before')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 11:05:22 --> Call to undefined function App\Filters\str_contains()
+#0 C:\wamp64\www\instintointimo\system\Filters\Filters.php(173): App\Filters\FrontRestrict->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/favicon.ico', 'before')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 11:06:55 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('admin', 'duvidas', 'cadastro')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 11:39:06 --> preg_match(): No ending delimiter '^' found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): N...', 'C:\\wamp64\\www\\i...', 15, Array)
+#1 C:\wamp64\www\instintointimo\app\Filters\FrontRestrict.php(15): preg_match('^((?!admin).)*$', '/camisas/camisa...')
+#2 C:\wamp64\www\instintointimo\system\Filters\Filters.php(173): App\Filters\FrontRestrict->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/camisas/camisa...', 'before')
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 11:39:06 --> preg_match(): No ending delimiter '^' found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): N...', 'C:\\wamp64\\www\\i...', 15, Array)
+#1 C:\wamp64\www\instintointimo\app\Filters\FrontRestrict.php(15): preg_match('^((?!admin).)*$', '/favicon.ico')
+#2 C:\wamp64\www\instintointimo\system\Filters\Filters.php(173): App\Filters\FrontRestrict->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/favicon.ico', 'before')
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 11:50:17 --> Undefined variable: request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 102, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(707): require('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 11:50:18 --> Undefined variable: request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 102, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(707): require('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:14:26 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$path
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(707): require()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 12:14:26 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$path
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(707): require()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 12:14:34 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::path()
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(707): require()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 12:14:34 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::path()
+#0 C:\wamp64\www\instintointimo\system\CodeIgniter.php(707): require()
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 12:16:02 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 100, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/admin/lojas/ca...')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/admin/lojas/ca...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:16:03 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 100, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/favicon.ico')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/favicon.ico')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:16:24 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 100, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/admin/lojas/ca...')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/admin/lojas/ca...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:16:24 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 100, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/favicon.ico')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/favicon.ico')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:17:07 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 101, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/admin/lojas/ca...')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/admin/lojas/ca...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:17:07 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 101, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/favicon.ico')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/favicon.ico')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:17:52 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 100, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/admin/lojas/ca...')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/admin/lojas/ca...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:17:52 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 100, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/favicon.ico')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/favicon.ico')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:19:16 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 4, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/camisas/camisa...')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/camisas/camisa...')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:19:17 --> Undefined property: CodeIgniter\Router\RouteCollection::$request
+#0 C:\wamp64\www\instintointimo\app\Config\Routes.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 4, Array)
+#1 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(354): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Router\RouteCollection.php(426): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#3 C:\wamp64\www\instintointimo\system\Router\Router.php(351): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#4 C:\wamp64\www\instintointimo\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/favicon.ico')
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(720): CodeIgniter\Router\Router->handle('/favicon.ico')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 12:25:08 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('camisas', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:32:33 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-5.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:32:33 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-3.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:34:41 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('camisas', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:34:53 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('shorts', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:34:54 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('shorts', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:34:56 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('calcas', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:34:58 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('calcas', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:35:04 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-3.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:35:04 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-5.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:35:21 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('moletons', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:35:22 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('moletons', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:35:25 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('moletons', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:35:26 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('moletons', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:56:59 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-3.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:56:59 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-5.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:59:49 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-3.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:59:49 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-5.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 12:59:49 --> Undefined variable: totalTime
+#0 C:\wamp64\www\instintointimo\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 40, Array)
+#1 C:\wamp64\www\instintointimo\system\Debug\Toolbar.php(501): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\wamp64\www\instintointimo\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\wamp64\www\instintointimo\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-10 13:22:16 --> Undefined variable: result
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Banner\cadastroTipos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 50, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Banner/cad...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Banner.php(159): view('Back/Banner/cad...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Banner->cadastroTipos('4')
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Banner))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:46:25 --> Trying to get property 'banner' of non-object
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\i...', 8, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:47:49 --> Trying to get property 'banner' of non-object
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\i...', 8, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:48:10 --> Undefined index: banner
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(318): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 318, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:49:07 --> syntax error, unexpected 'sssssssssssssssssssssssssssss' (T_STRING)
+#0 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#2 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-10 13:49:14 --> Trying to get property 'link' of non-object
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\i...', 9, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:49:35 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#2 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-10 13:50:06 --> Trying to get property 'banner_mobile' of non-object
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\i...', 21, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:51:24 --> Undefined index: banner
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(318): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 318, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:51:54 --> Undefined index: banner
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(318): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 318, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:51:56 --> Undefined index: banner
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(318): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\i...', 318, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:57:17 --> Illegal string offset 'banner'
+#0 C:\wamp64\www\instintointimo\app\Views\Front\Home\nuez.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\i...', 8, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Front/Home/nuez', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Front\Home.php(43): view('Front/Home/nuez', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Home->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 13:59:01 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-3.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 13:59:01 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('images', 'slider', 'slider-bg-5.jpg')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 14:13:32 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('shorts', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 14:13:40 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('camisas', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 14:13:42 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('camisas', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 14:43:31 --> Undefined variable: estados
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Topicos\cadastro.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 39, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Topicos/ca...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Topicos.php(34): view('Back/Topicos/ca...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Topicos->cadastro()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Topicos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 14:53:31 --> Array to string conversion
+#0 C:\wamp64\www\instintointimo\app\Views\Back\Topicos\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\i...', 38, Array)
+#1 C:\wamp64\www\instintointimo\system\View\View.php(210): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\instintointimo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\instintointimo\system\Common.php(1089): CodeIgniter\View\View->render('Back/Topicos/in...', Array, true)
+#4 C:\wamp64\www\instintointimo\app\Controllers\Back\Topicos.php(26): view('Back/Topicos/in...', Array)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Back\Topicos->index()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Back\Topicos))
+#7 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-10 18:31:07 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\app\Controllers\Front\Produto.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 67, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Front\Produto->index('camisas', 'icon', 'favicon.png')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Produto))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 20:36:31 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\i...', 145, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->produto()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 20:39:09 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\system\Files\File.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 143, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(193): CodeIgniter\Files\File->move('public/upload/p...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->produto()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 20:40:26 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\system\Files\File.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 143, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(189): CodeIgniter\Files\File->move('public/upload/p...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->produto()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 20:41:30 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\system\Files\File.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 143, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(191): CodeIgniter\Files\File->move('public/upload/p...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->produto()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 20:43:55 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\i...')
+#1 C:\wamp64\www\instintointimo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(791): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\instintointimo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-10 20:44:06 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\system\Files\File.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 143, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(190): CodeIgniter\Files\File->move('public/upload/p...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->produto()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 20:45:17 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\system\Files\File.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 143, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(190): CodeIgniter\Files\File->move('public/upload/p...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->produto()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 20:47:27 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\instintointimo\system\Files\File.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\i...', 136, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(190): CodeIgniter\Files\File->move('public/upload/p...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->produto()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 20:48:16 --> unlink(public/upload/produtos/video_produto.mp4): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\wamp64\\www\\i...', 195, Array)
+#1 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(195): unlink('public/upload/p...')
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->produto()
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#4 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-10 21:17:24 --> Undefined variable: valVal
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(299): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 299, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->atributos()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-10 21:19:07 --> Undefined property: stdClass::$Video
+#0 C:\wamp64\www\instintointimo\app\Controllers\Api\Produtos.php(293): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 293, Array)
+#1 C:\wamp64\www\instintointimo\system\CodeIgniter.php(826): App\Controllers\Api\Produtos->atributos()
+#2 C:\wamp64\www\instintointimo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Produtos))
+#3 C:\wamp64\www\instintointimo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\instintointimo\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

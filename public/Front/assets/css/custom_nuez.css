@@ -1,0 +1,61 @@
+a:hover,
+a:focus {
+    color: #ec638b !important;
+}
+
+.bg-custom {
+    background: #ef97b1 !important;
+}
+
+.menu-top-bg {
+    background: #ef97b1;
+}
+.product.style2 .product-item {
+    width: 100%;
+}
+
+.product-detail .add-to-cart a {
+    background-color: #ec638b !important;
+}
+
+.product-detail .add-to-cart a:hover {
+    background-color: #ec638bbb !important;
+}
+
+.product .product-item .add-to-cart {
+    background: #ec638b !important;
+}
+.product .product-item .add-to-cart:hover {
+    background-color: #ac4d6a !important;
+    cursor: pointer;
+}
+.title-section .title:before {
+    background: #ec638b !important;
+}
+.themesflat-button.bg-accent {
+    background: #ec638bbb;
+}
+.themesflat-button.bg-accent .active {
+    background-color: #fff !important;
+}
+.themesflat-button.has-padding-36 {
+    padding: 20px 36px;
+    background: #ec638b;
+}
+.flat-social li a:hover {
+    color: #ec638b !important;
+}
+.widget.widget-link ul li a:hover {
+    color: #ec638b !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ec638b;
+}
+#mainnav ul.submenu:before {
+    background: #ec638b;
+}
+.parcelamento span {
+    background: #ec638b;
+}

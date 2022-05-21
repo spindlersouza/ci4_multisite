@@ -1,0 +1,63 @@
+a:hover,
+a:focus {
+    color: #3981bd !important;
+}
+
+.bg-custom {
+    background: #abcbe5 !important;
+}
+
+.menu-top-bg {
+    background: #abcbe5;
+}
+
+.product.style2 .product-item {
+    width: 100%;
+}
+
+.product .product-item .add-to-cart {
+    background: #8facc4 !important;
+}
+
+.product .product-item .add-to-cart:hover {
+    background-color: #5a6d7c !important;
+    cursor: pointer;
+}
+
+.title-section .title:before {
+    background: #8facc4 !important;
+}
+
+.themesflat-button.bg-accent {
+    background: #8facc4bb;
+}
+
+.themesflat-button.bg-accent .active {
+    background-color: #fff !important;
+}
+
+.themesflat-button.has-padding-36 {
+    padding: 20px 36px;
+    background: #8facc4;
+}
+
+.flat-social li a:hover {
+    color: #8facc4 !important;
+}
+
+.widget.widget-link ul li a:hover {
+    color: #8facc4 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #8facc4;
+}
+
+#mainnav ul.submenu:before {
+    background: #8facc4;
+}
+
+.parcelamento span {
+    background: #8facc4;
+}
